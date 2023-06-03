@@ -63,4 +63,10 @@ public class StudentPojo {
         studentPojo.setCourses(courses);
         return studentPojo;
     }
+
+    public static StudentPojo getStudentPojo(String email){
+        StudentPojo studentPojo = new StudentPojo();
+        studentPojo.setEmail(email);
+        return studentPojo;
+    }
 }

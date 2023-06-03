@@ -16,5 +16,7 @@ public class EndPoints {
     /**
      * This is Endpoints of Authentication api
      */
+    public static final String LOGIN = "/api";
+    public static final String LOGOUT = "/close_session";
 
 }
